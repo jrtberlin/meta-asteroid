@@ -9,7 +9,7 @@ SRC_URI = "git://git.merproject.org/mer-core/libmlocale.git;protocol=https \
            file://0003-Disable-tests-and-doc.patch \
            file://0004-configure-Use-a-usr-prefix-by-default.patch \
            file://0005-Make-the-usage-of-icu-namespace-explicit.patch"
-SRCREV = "8ba84e50a3ea099a9582dfb99b27078a6cedde3e"
+SRCREV = "3b0686ab1616b149b26f509ef70bed2c255d1b57"
 PR = "r1"
 PV = "+git${SRCPV}"
 S = "${WORKDIR}/git"
