@@ -4,7 +4,6 @@ LICENSE = "LGPL-2.1+"
 LIC_FILES_CHKSUM = "file://LICENSE.LGPL;md5=7635eef25dff78f483059bf21a20686d"
 
 SRC_URI = "git://git.merproject.org/mer-core/libmlocale.git;protocol=https \
-           file://0002-Disable-a-faulty-chinese-collision-text-building.patch \
            file://0003-Disable-tests-and-doc.patch \
            file://0004-configure-Use-a-usr-prefix-by-default.patch \
            file://0005-Make-the-usage-of-icu-namespace-explicit.patch"
