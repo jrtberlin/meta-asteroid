@@ -15,7 +15,7 @@ do_install:append:hybris-machine() {
     install -m 0644 ${UNPACKDIR}/65-android.rules ${D}${sysconfdir}/udev/rules.d/65-android.rules
 }
 
-PACKAGECONFIG:append = " pam"
+PACKAGECONFIG:append = " analyze container pam"
 
 PACKAGECONFIG:remove = "rfkill"
 
